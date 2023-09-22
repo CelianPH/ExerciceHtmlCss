@@ -1,6 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&display=swap");
 
+/**tipo**/
+h1 {
+  font-family: "Amatic SC", cursive;
+  font-size: 60px;
+}
+p li {
+  font-family: "Work Sans", sans-serif;
+}
+a {
+  color: white;
+}
+/**le header**/
 .header {
   display: flex;
   height: 600px;
@@ -12,16 +24,8 @@
   align-items: center;
   flex-direction: column;
 }
-h1 {
-  font-family: "Amatic SC", cursive;
-  font-size: 75px;
-}
-p li {
-  font-family: "Work Sans", sans-serif;
-}
-a {
-  color: white;
-}
+
+/**destination**/
 .box_destination {
   display: flex;
   align-items: center;
@@ -29,4 +33,21 @@ a {
 .testcolumn {
   flex-direction: column;
   margin-left: 100px;
+  margin-right: 10px;
+}
+
+/**formules**/
+.titreFormules {
+  text-align: center;
+}
+.alignBox {
+  display: flex;
+  justify-content: space-around;
+}
+.boxFormules {
+  border: 1px solid darksalmon;
+  padding: 20px;
+  width: 400px;
+  min-width: 250px;
+  height: auto;
 }
