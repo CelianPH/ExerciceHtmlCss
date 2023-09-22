@@ -1,0 +1,24 @@
+.textColorRed {
+  color: red;
+  font-family: arial;
+}
+.textColorblue {
+  color: blue;
+  font-family: arial;
+}
+.textColorGreen {
+  color: green;
+  font-family: arial;
+}
+.BgColorRed {
+  background-color: red;
+  font-family: monospace;
+}
+.BgColorBlue {
+  background-color: blue;
+  font-family: monospace;
+}
+.BgColorGreen {
+  background-color: green;
+  font-family: monospace;
+}
