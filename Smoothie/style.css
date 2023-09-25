@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "Playfair Display", serif;
+}
+a {
+  color: white;
+}
+
+/**header**/
+.header {
+  display: flex;
+  height: 600px;
+  background-image: url(./img/detoxcuresmoothie.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/**notre devise**/
+.boxDevise {
+  display: flex;
+  align-items: center;
+}
+.textDevise {
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 10px;
+  padding-right: 70px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.textDevise h2 {
+  text-align: center;
+}
+.imgDevise {
+  padding-left: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  height: 400px;
+  width: 400px;
+}
+
+/**fabrication**/
+.backFabrication {
+  background: linear-gradient(#feb4c3, #f59e28);
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.backFabrication h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.backFabrication img {
+  padding-top: 80px;
+}
+.backFabrication p {
+  color: white;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.textFabrication {
+  text-align: center;
+}
+/**concept**/
+.titreConcept {
+  text-align: center;
+  padding-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.blockConcept {
+  display: flex;
+  padding-top: 65px;
+  justify-content: space-evenly;
+}
+.textConcept {
+  text-align: center;
+}
+.textConcept img {
+  padding-top: 25px;
+}
+.textConcept h3 {
+  padding-top: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.textConcept p {
+  padding-top: 25px;
+  padding-bottom: 70px;
+}
+/**footer**/
+footer {
+  background: #f59e28;
+}
+footer p {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 30px;
+}
