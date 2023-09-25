@@ -13,7 +13,7 @@ a {
   color: white;
 }
 
-/**header**/
+/*********************************header********************************/
 .header {
   display: flex;
   height: 600px;
@@ -26,7 +26,7 @@ a {
   flex-direction: column;
 }
 
-/**notre devise**/
+/*********************************notre devise********************************/
 .boxDevise {
   display: flex;
   align-items: center;
@@ -50,7 +50,7 @@ a {
   width: 400px;
 }
 
-/**fabrication**/
+/*********************************fabrication********************************/
 .backFabrication {
   background: linear-gradient(#feb4c3, #f59e28);
   padding-top: 130px;
@@ -73,7 +73,7 @@ a {
 .textFabrication {
   text-align: center;
 }
-/**concept**/
+/*********************************concept********************************/
 .titreConcept {
   text-align: center;
   padding-top: 30px;
@@ -99,7 +99,7 @@ a {
   padding-top: 25px;
   padding-bottom: 70px;
 }
-/**footer**/
+/*********************************footer********************************/
 footer {
   background: #f59e28;
 }
@@ -109,4 +109,69 @@ footer p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   padding: 30px;
+}
+
+/*********************************Format mobile********************************/
+@media (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 70px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+  }
+  /**devise mobile**/
+  .boxDevise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textDevise {
+    flex-direction: column;
+    font-size: 18px;
+    margin-left: 35px;
+    padding-right: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 70px;
+  }
+  .textDevise h2 {
+    text-align: center;
+  }
+  .textDevise p {
+    text-align: center;
+  }
+  .imgDevise {
+    padding-left: 1px;
+    max-height: 200px;
+    max-width: 200px;
+  }
+  /**concept mobile**/
+  .titreConcept {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .blockConcept {
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    justify-content: space-evenly;
+  }
+  .textConcept {
+    text-align: center;
+  }
+  .textConcept img {
+    padding-top: 25px;
+  }
+  .textConcept h3 {
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .textConcept p {
+    padding-top: 25px;
+    padding-bottom: 70px;
+  }
 }
